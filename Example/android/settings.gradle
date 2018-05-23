@@ -1,0 +1,5 @@
+rootProject.name = 'Example'
+include ':react-native-bottom-sheet-text-view'
+project(':react-native-bottom-sheet-text-view').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bottom-sheet-text-view/android')
+
+include ':app'
