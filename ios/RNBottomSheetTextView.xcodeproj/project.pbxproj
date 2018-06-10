@@ -7,8 +7,27 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		8E061168F45B80BC595BE79E /* libPods-RNBottomSheetTextView.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B00A2CCF7D970A8F92AEC2C6 /* libPods-RNBottomSheetTextView.a */; };
 		B3E7B58A1CC2AC0600A0062D /* RNBottomSheetTextView.m in Sources */ = {isa = PBXBuildFile; fileRef = B3E7B5891CC2AC0600A0062D /* RNBottomSheetTextView.m */; };
+		CEDF083120CA788300D8D225 /* libCNPPopupController.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CEDF082E20CA787F00D8D225 /* libCNPPopupController.a */; };
 /* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEDF082D20CA787F00D8D225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDF082820CA787F00D8D225 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 8E11D205F383A657D4C5EC4F9C1AD16C;
+			remoteInfo = CNPPopupController;
+		};
+		CEDF082F20CA787F00D8D225 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEDF082820CA787F00D8D225 /* Pods.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 6389B171F123A79AC0EA001DF9783693;
+			remoteInfo = "Pods-RNBottomSheetTextView";
+		};
+/* End PBXContainerItemProxy section */
 
 /* Begin PBXCopyFilesBuildPhase section */
 		58B511D91A9E6C8500147676 /* CopyFiles */ = {
@@ -24,8 +43,12 @@
 
 /* Begin PBXFileReference section */
 		134814201AA4EA6300B7C361 /* libRNBottomSheetTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNBottomSheetTextView.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		817A9192B9D161E258B59CB3 /* Pods-RNBottomSheetTextView.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBottomSheetTextView.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RNBottomSheetTextView/Pods-RNBottomSheetTextView.debug.xcconfig"; sourceTree = "<group>"; };
+		B00A2CCF7D970A8F92AEC2C6 /* libPods-RNBottomSheetTextView.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-RNBottomSheetTextView.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		B3E7B5881CC2AC0600A0062D /* RNBottomSheetTextView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RNBottomSheetTextView.h; sourceTree = "<group>"; };
 		B3E7B5891CC2AC0600A0062D /* RNBottomSheetTextView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RNBottomSheetTextView.m; sourceTree = "<group>"; };
+		CEDF082820CA787F00D8D225 /* Pods.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Pods.xcodeproj; path = Pods/Pods.xcodeproj; sourceTree = "<group>"; };
+		D28C3FC806E25B1BEF45A847 /* Pods-RNBottomSheetTextView.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RNBottomSheetTextView.release.xcconfig"; path = "Pods/Target Support Files/Pods-RNBottomSheetTextView/Pods-RNBottomSheetTextView.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +56,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEDF083120CA788300D8D225 /* libCNPPopupController.a in Frameworks */,
+				8E061168F45B80BC595BE79E /* libPods-RNBottomSheetTextView.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -47,13 +72,42 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
+		2AE8E4D01F3BBF87F2404FE9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				817A9192B9D161E258B59CB3 /* Pods-RNBottomSheetTextView.debug.xcconfig */,
+				D28C3FC806E25B1BEF45A847 /* Pods-RNBottomSheetTextView.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		58B511D21A9E6C8500147676 = {
 			isa = PBXGroup;
 			children = (
 				B3E7B5881CC2AC0600A0062D /* RNBottomSheetTextView.h */,
 				B3E7B5891CC2AC0600A0062D /* RNBottomSheetTextView.m */,
 				134814211AA4EA7D00B7C361 /* Products */,
+				CE3F7B3720B590CD00B9DC21 /* Frameworks */,
+				2AE8E4D01F3BBF87F2404FE9 /* Pods */,
 			);
+			sourceTree = "<group>";
+		};
+		CE3F7B3720B590CD00B9DC21 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF082820CA787F00D8D225 /* Pods.xcodeproj */,
+				B00A2CCF7D970A8F92AEC2C6 /* libPods-RNBottomSheetTextView.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		CEDF082920CA787F00D8D225 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEDF082E20CA787F00D8D225 /* libCNPPopupController.a */,
+				CEDF083020CA787F00D8D225 /* libPods-RNBottomSheetTextView.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -63,6 +117,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 58B511EF1A9E6C8500147676 /* Build configuration list for PBXNativeTarget "RNBottomSheetTextView" */;
 			buildPhases = (
+				DA9E1ED2152D4BCCE01C210B /* [CP] Check Pods Manifest.lock */,
 				58B511D71A9E6C8500147676 /* Sources */,
 				58B511D81A9E6C8500147676 /* Frameworks */,
 				58B511D91A9E6C8500147676 /* CopyFiles */,
@@ -100,12 +155,56 @@
 			mainGroup = 58B511D21A9E6C8500147676;
 			productRefGroup = 58B511D21A9E6C8500147676;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = CEDF082920CA787F00D8D225 /* Products */;
+					ProjectRef = CEDF082820CA787F00D8D225 /* Pods.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				58B511DA1A9E6C8500147676 /* RNBottomSheetTextView */,
 			);
 		};
 /* End PBXProject section */
+
+/* Begin PBXReferenceProxy section */
+		CEDF082E20CA787F00D8D225 /* libCNPPopupController.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = libCNPPopupController.a;
+			remoteRef = CEDF082D20CA787F00D8D225 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		CEDF083020CA787F00D8D225 /* libPods-RNBottomSheetTextView.a */ = {
+			isa = PBXReferenceProxy;
+			fileType = archive.ar;
+			path = "libPods-RNBottomSheetTextView.a";
+			remoteRef = CEDF082F20CA787F00D8D225 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		DA9E1ED2152D4BCCE01C210B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-RNBottomSheetTextView-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		58B511D71A9E6C8500147676 /* Sources */ = {
@@ -202,13 +301,15 @@
 		};
 		58B511F01A9E6C8500147676 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 817A9192B9D161E258B59CB3 /* Pods-RNBottomSheetTextView.debug.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
-				"$(inherited)",
+					"$(inherited)",
 					/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/include,
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNBottomSheetTextView;
@@ -218,6 +319,7 @@
 		};
 		58B511F11A9E6C8500147676 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D28C3FC806E25B1BEF45A847 /* Pods-RNBottomSheetTextView.release.xcconfig */;
 			buildSettings = {
 				HEADER_SEARCH_PATHS = (
 					"$(inherited)",
@@ -225,6 +327,7 @@
 					"$(SRCROOT)/../../../React/**",
 					"$(SRCROOT)/../../react-native/React/**",
 				);
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
 				LIBRARY_SEARCH_PATHS = "$(inherited)";
 				OTHER_LDFLAGS = "-ObjC";
 				PRODUCT_NAME = RNBottomSheetTextView;
