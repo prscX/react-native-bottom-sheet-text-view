@@ -29,10 +29,10 @@ android {
 
 repositories {
     mavenCentral()
-    google()
+    maven { url "https://maven.google.com" }
 }
 
 dependencies {
-    compile 'com.prscX.BottomSheetTextView:BottomSheetTextView:0.0.1'
+    compile 'com.github.prscX:BottomSheetTextView.Android:0.0.1'
     compile 'com.facebook.react:react-native:+'
 }
