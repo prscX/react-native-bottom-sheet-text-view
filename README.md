@@ -11,8 +11,6 @@
 
 
 <h1 align="center">
-<img src="./assets/hero.gif" width="400" height="600" />
-
     React Native: Native Bottom Sheet Text View
 </h1>
 
