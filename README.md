@@ -14,3 +14,73 @@
     React Native: Native Bottom Sheet Text View
 </h1>
 
+This library is a wrapper around native bottomsheet which is modified to show a large text view
+
+## Getting Started
+
+`$npm install react-native-bottom-sheet-text-view`
+
+`$react-native link react-native-bottom-sheet-text-view`
+
+- **Android**
+
+    - Please add below script snippet in your app `build.gradle`
+
+```
+buildscript {
+    repositories {
+        jcenter()
+        maven { url "https://maven.google.com" }
+    }
+    ...
+}
+
+allprojects {
+    repositories {
+        jcenter()
+        mavenLocal()
+        maven { url "https://maven.google.com" }
+        ...
+    }
+}
+
+dependencies {
+    compile 'com.prscX.BottomSheetTextView:BottomSheetTextView:0.0.1'
+}
+
+```
+
+> **Note:** Android SDK 27 > is supported
+
+- **iOS**
+    - Run Command: `cd ../node_modules/react-native-react-native-bottom-sheet-text-view/ios` && `pod install`. If it has error => try pod repo update then pod install
+
+## Usage
+
+```javascript
+
+import RNBottomSheetTextView from 'react-native-bottom-sheet-text-view'
+
+```
+
+```javascript
+BottomSheetTextView.Show({
+    title: '',
+    description: ''
+});
+```
+
+## Credits
+- Android: [prscX/BottomSheetTextView.Android](https://github.com/prscX/BottomSheetTextView.Android)
+- iOS: [prscX/BottomSheetTextView.iOS](prscX/BottomSheetTextView.iOS)
+- iOS: [carsonperrotti/CNPPopupController](https://github.com/carsonperrotti/CNPPopupController)
+
+
+## Contribution
+Contributions are welcome and are greatly appreciated! Every little bit helps, and credit will always be given.
+
+
+## License
+This library is provided under the Apache 2 License.
+
+RNBottomSheetTextView @ Pranav Raj Singh Chauhan
