@@ -56,7 +56,7 @@ allprojects {
 }
 
 dependencies {
-    compile 'com.prscX.BottomSheetTextView:BottomSheetTextView:0.0.1'
+    compile 'com.github.prscX:BottomSheetTextView.Android:0.0.1'
 }
 
 ```

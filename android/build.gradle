@@ -2,7 +2,7 @@
 buildscript {
     repositories {
         jcenter()
-        google()
+        maven { url "https://maven.google.com" }
     }
 
     dependencies {
@@ -33,6 +33,6 @@ repositories {
 }
 
 dependencies {
-    compile 'com.github.prscX:BottomSheetTextView:2ba2b8b6782369f9c42c953803e0039f7d549984'
+    compile 'com.prscX.BottomSheetTextView:BottomSheetTextView:0.0.1'
     compile 'com.facebook.react:react-native:+'
 }
