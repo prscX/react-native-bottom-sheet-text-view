@@ -24,7 +24,7 @@ This library is a wrapper around native bottomsheet which is modified to show a 
 
 | **iOS: [prscX/BottomSheetTextView.iOS](https://github.com/prscX/BottomSheetTextView.iOS)**             |
 | ----------------- |
-| <img src="https://github.com/prscX/react-native-bottom-sheet-text-view/blob/master/assets/hero.gif?raw=true" height="600" width="400" />                  |
+| <img src="https://github.com/prscX/react-native-bottom-sheet-text-view/blob/master/assets/hero.gif?raw=true" height="600" />                  |
 
 
 ## Getting Started
