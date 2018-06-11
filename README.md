@@ -70,7 +70,7 @@ dependencies {
 
 ```javascript
 
-import RNBottomSheetTextView from 'react-native-bottom-sheet-text-view'
+import { RNBottomSheetTextView } from 'react-native-bottom-sheet-text-view'
 
 ```
 
