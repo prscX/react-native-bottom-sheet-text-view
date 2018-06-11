@@ -22,9 +22,9 @@ This library is a wrapper around native bottomsheet which is modified to show a 
 | <img src="https://github.com/prscX/BottomSheetTextView.Android/blob/master/assets/hero.gif" height="600" />                  |
 
 
-| **iOS: [zawadz88/MaterialPopupMenu](https://github.com/zawadz88/MaterialPopupMenu)**             |
+| **iOS: [prscX/BottomSheetTextView.Android](https://github.com/prscX/BottomSheetTextView.iOS)**             |
 | ----------------- |
-| <img src="https://github.com/zawadz88/MaterialPopupMenu/raw/master/art/sample_sections_light.png" height="600" />                  |
+| <img src="./assets/hero.gif" height="600" />                  |
 
 
 ## Getting Started
