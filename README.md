@@ -1,4 +1,6 @@
 
+<h1 align="center">
+
 <p align="center">
   <img src="./assets/hero.png" width="300" height="300" />
 </p>
@@ -9,8 +11,6 @@
   <a href="https://github.com/prscX/react-native-bottom-sheet-text-view#License"><img src="https://img.shields.io/npm/l/react-native-bottom-sheet-text-view.svg?style=flat" /></a>
 </p>
 
-
-<h1 align="center">
     React Native: Native Bottom Sheet Text View
 </h1>
 
