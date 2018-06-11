@@ -16,6 +16,17 @@
 
 This library is a wrapper around native bottomsheet which is modified to show a large text view
 
+
+| **Android: [prscX/BottomSheetTextView.Android](https://github.com/prscX/BottomSheetTextView.Android)**             |
+| ----------------- |
+| <img src="https://github.com/prscX/BottomSheetTextView.Android/blob/master/assets/hero.gif" height="600" />                  |
+
+
+| **iOS: [zawadz88/MaterialPopupMenu](https://github.com/zawadz88/MaterialPopupMenu)**             |
+| ----------------- |
+| <img src="https://github.com/zawadz88/MaterialPopupMenu/raw/master/art/sample_sections_light.png" height="600" />                  |
+
+
 ## Getting Started
 
 `$npm install react-native-bottom-sheet-text-view`
