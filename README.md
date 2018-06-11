@@ -22,7 +22,7 @@ This library is a wrapper around native bottomsheet which is modified to show a 
 | <img src="https://github.com/prscX/BottomSheetTextView.Android/blob/master/assets/hero.gif" height="600" />                  |
 
 
-| **iOS: [prscX/BottomSheetTextView.Android](https://github.com/prscX/BottomSheetTextView.iOS)**             |
+| **iOS: [prscX/BottomSheetTextView.iOS](https://github.com/prscX/BottomSheetTextView.iOS)**             |
 | ----------------- |
 | <img src="./assets/hero.gif" height="600" />                  |
 
@@ -80,6 +80,21 @@ BottomSheetTextView.Show({
     description: ''
 });
 ```
+
+
+## Props
+
+- **Props: Generic**
+
+| Prop              | Type       | Default | Note                                                                                                       |
+| ----------------- | ---------- | ------- | ---------------------------------------------------------------------------------------------------------- |
+| `title`       | `string`     |         | Specify the title of bottom sheet
+| `description` | `string` |         | Specify the description of bottom sheet                                                   |  |
+| `titleSize`    | `number`     |    25     | Specify the font size of title                                        |  |
+| `descriptionSize`      | `number`     |    20     | Specify the font size of description
+| `titleColor`      | `string: HEX-NUMBER`     |    `#000000`     | Specify the color of title
+| `descriptionColor`      | `string: HEX-NUMBER`     |    `#757575`     | Specify the color of description
+
 
 ## Credits
 - Android: [prscX/BottomSheetTextView.Android](https://github.com/prscX/BottomSheetTextView.Android)
