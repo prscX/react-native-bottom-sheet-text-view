@@ -75,7 +75,7 @@ import { RNBottomSheetTextView } from 'react-native-bottom-sheet-text-view'
 ```
 
 ```javascript
-BottomSheetTextView.Show({
+RNBottomSheetTextView.Show({
     title: '',
     description: ''
 });
