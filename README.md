@@ -11,10 +11,12 @@
   <a href="https://github.com/prscX/react-native-bottom-sheet-text-view#License"><img src="https://img.shields.io/npm/l/react-native-bottom-sheet-text-view.svg?style=flat" /></a>
 </p>
 
-    React Native: Native Bottom Sheet Text View
+    ReactNative: Native Bottom Sheet Text View (Android/iOS)
+
+If this project has helped you out, please support us with a star 🌟
 </h1>
 
-This library is a wrapper around native bottomsheet which is modified to show a large text view
+This library is a wrapper around native bottomsheet which is modified to show a large text view:
 
 
 | **Android: [prscX/BottomSheetTextView.Android](https://github.com/prscX/BottomSheetTextView.Android)**             |
@@ -27,7 +29,7 @@ This library is a wrapper around native bottomsheet which is modified to show a 
 | <img src="https://github.com/prscX/react-native-bottom-sheet-text-view/blob/master/assets/hero.gif?raw=true" height="600" />                  |
 
 
-## Getting Started
+## 📖 Getting Started
 
 `$npm install react-native-bottom-sheet-text-view`
 
@@ -66,7 +68,7 @@ dependencies {
 - **iOS**
     - Run Command: `cd ../node_modules/react-native-react-native-bottom-sheet-text-view/ios` && `pod install`. If it has error => try pod repo update then pod install
 
-## Usage
+## 💻 Usage
 
 ```javascript
 
@@ -82,7 +84,7 @@ RNBottomSheetTextView.Show({
 ```
 
 
-## Props
+## 💡 Props
 
 - **Props: Generic**
 
@@ -96,17 +98,36 @@ RNBottomSheetTextView.Show({
 | `descriptionColor`      | `string: HEX-NUMBER`     |    `#757575`     | Specify the color of description
 
 
-## Credits
+## ✨ Credits
+
 - Android: [prscX/BottomSheetTextView.Android](https://github.com/prscX/BottomSheetTextView.Android)
 - iOS: [prscX/BottomSheetTextView.iOS](prscX/BottomSheetTextView.iOS)
 - iOS: [carsonperrotti/CNPPopupController](https://github.com/carsonperrotti/CNPPopupController)
 
-
-## Contribution
+## 🤔 How to contribute
+Have an idea? Found a bug? Please raise to [ISSUES](https://github.com/prscX/react-native-bottom-sheet-text-view/issues).
 Contributions are welcome and are greatly appreciated! Every little bit helps, and credit will always be given.
 
+## 💫 Where is this library used?
+If you are using this library in one of your projects, add it in this list below. ✨
 
-## License
+
+## 📜 License
 This library is provided under the Apache 2 License.
 
-RNBottomSheetTextView @ Pranav Raj Singh Chauhan
+RNBottomSheetTextView @ [prscX](https://github.com/prscX)
+
+## 💖 Support my projects
+I open-source almost everything I can, and I try to reply everyone needing help using these projects. Obviously, this takes time. You can integrate and use these projects in your applications for free! You can even change the source code and redistribute (even resell it).
+
+However, if you get some profit from this or just want to encourage me to continue creating stuff, there are few ways you can do it:
+* Starring and sharing the projects you like 🚀
+* If you're feeling especially charitable, please follow [prscX](https://github.com/prscX) on GitHub.
+
+  <a href="https://www.buymeacoffee.com/prscX" target="_blank"><img src="https://www.buymeacoffee.com/assets/img/custom_images/orange_img.png" alt="Buy Me A Coffee" style="height: auto !important;width: auto !important;" ></a>
+
+  Thanks! ❤️
+  <br/>
+  [prscX.github.io](https://prscx.github.io)
+  <br/>
+  </ Pranav >
