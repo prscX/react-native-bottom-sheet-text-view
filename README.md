@@ -108,9 +108,6 @@ RNBottomSheetTextView.Show({
 Have an idea? Found a bug? Please raise to [ISSUES](https://github.com/prscX/react-native-bottom-sheet-text-view/issues).
 Contributions are welcome and are greatly appreciated! Every little bit helps, and credit will always be given.
 
-This project exists thanks to all the people who contribute. [[Contribute](CONTRIBUTING.md)].
-<a href="https://github.com/prscX/react-native-bottom-sheet-text-view/graphs/contributors"><img src="https://opencollective.com/react-native-bottom-sheet-text-view/contributors.svg?width=890" /></a>
-
 ## 💫 Where is this library used?
 If you are using this library in one of your projects, add it in this list below. ✨
 
