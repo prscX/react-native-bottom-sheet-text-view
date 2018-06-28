@@ -66,7 +66,8 @@ dependencies {
 > **Note:** Android SDK 27 > is supported
 
 - **iOS**
-    - Run Command: `cd ../node_modules/react-native-react-native-bottom-sheet-text-view/ios` && `pod install`. If it has error => try pod repo update then pod install
+    - After `react-native link react-native-bottom-sheet-text-view`, please verify `node_modules/react-native-bottom-sheet-text-view/ios/` contains `Pods` folder. If does not exist please execute `pod install` command on `node_modules/react-native-bottom-sheet-text-view/ios/`, if any error => try `pod repo update` then `pod install`
+    
 
 ## 💻 Usage
 
