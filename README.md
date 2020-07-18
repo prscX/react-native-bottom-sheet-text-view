@@ -11,7 +11,9 @@
   <a href="https://github.com/prscX/react-native-bottom-sheet-text-view#License"><img src="https://img.shields.io/npm/l/react-native-bottom-sheet-text-view.svg?style=flat" /></a>
 </p>
 
-    ReactNative: Native Bottom Sheet Text View (Android/iOS)
+    ReactNative: Native Bottom Sheet Text View (Android/iOS): Deprecated
+
+Due to time constraint, this library is deprecated and not maintained anymore, You can still use this library.
 
 If this project has helped you out, please support us with a star 🌟
 </h1>
